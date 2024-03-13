@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080F9A862B9BD0F900786E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F9A852B9BD0F900786E3F /* AppDelegate.swift */; };
+		080F9A882B9BD0F900786E3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F9A872B9BD0F900786E3F /* SceneDelegate.swift */; };
+		080F9A8F2B9BD0FC00786E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080F9A8E2B9BD0FC00786E3F /* Assets.xcassets */; };
+		080F9A9D2B9BD0FC00786E3F /* stori_ios_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F9A9C2B9BD0FC00786E3F /* stori_ios_challengeTests.swift */; };
+		080F9AA72B9BD0FC00786E3F /* stori_ios_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F9AA62B9BD0FC00786E3F /* stori_ios_challengeUITests.swift */; };
+		080F9AA92B9BD0FC00786E3F /* stori_ios_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F9AA82B9BD0FC00786E3F /* stori_ios_challengeUITestsLaunchTests.swift */; };
+		0830074E2B9FCF1000C28916 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830074D2B9FCF1000C28916 /* Definitions.swift */; };
+		083007572B9FDA6B00C28916 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083007562B9FDA6B00C28916 /* Extensions.swift */; };
+		083007592B9FDB2300C28916 /* MoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083007582B9FDB2300C28916 /* MoviesPresenter.swift */; };
+		0830075B2B9FDB8600C28916 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830075A2B9FDB8600C28916 /* Movie.swift */; };
+		0830075D2B9FDE1900C28916 /* MoviesRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830075C2B9FDE1900C28916 /* MoviesRemoteService.swift */; };
+		0830075F2B9FE26300C28916 /* MoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830075E2B9FE26300C28916 /* MoviesInteractor.swift */; };
+		083007612B9FEBFF00C28916 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083007602B9FEBFF00C28916 /* MoviesCoordinator.swift */; };
+		083007672BA0FAC200C28916 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083007652BA0FAC200C28916 /* MoviesViewController.swift */; };
+		0830076A2BA1004700C28916 /* MoviesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083007662BA0FAC200C28916 /* MoviesViewController.xib */; };
+		0830076B2BA1013900C28916 /* MoviesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083007662BA0FAC200C28916 /* MoviesViewController.xib */; };
+		0830076C2BA1013900C28916 /* MoviesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083007662BA0FAC200C28916 /* MoviesViewController.xib */; };
+		083007702BA1116200C28916 /* MoviesEndpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830076F2BA1116200C28916 /* MoviesEndpointResponse.swift */; };
+		083007732BA1249B00C28916 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083007712BA1249B00C28916 /* MoviesTableViewCell.swift */; };
+		083007742BA1249B00C28916 /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083007722BA1249B00C28916 /* MoviesTableViewCell.xib */; };
+		083007762BA15C7800C28916 /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 083007752BA15C7800C28916 /* Poppins */; };
+		083007792BA165EA00C28916 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083007772BA165EA00C28916 /* MovieDetailViewController.swift */; };
+		0830077A2BA165EA00C28916 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083007782BA165EA00C28916 /* MovieDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080F9A992B9BD0FC00786E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080F9A7A2B9BD0F900786E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080F9A812B9BD0F900786E3F;
+			remoteInfo = "stori-ios-challenge";
+		};
+		080F9AA32B9BD0FC00786E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080F9A7A2B9BD0F900786E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080F9A812B9BD0F900786E3F;
+			remoteInfo = "stori-ios-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080F9A822B9BD0F900786E3F /* stori-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stori-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080F9A852B9BD0F900786E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080F9A872B9BD0F900786E3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		080F9A8E2B9BD0FC00786E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080F9A932B9BD0FC00786E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080F9A982B9BD0FC00786E3F /* stori-ios-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stori-ios-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080F9A9C2B9BD0FC00786E3F /* stori_ios_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stori_ios_challengeTests.swift; sourceTree = "<group>"; };
+		080F9AA22B9BD0FC00786E3F /* stori-ios-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stori-ios-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080F9AA62B9BD0FC00786E3F /* stori_ios_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stori_ios_challengeUITests.swift; sourceTree = "<group>"; };
+		080F9AA82B9BD0FC00786E3F /* stori_ios_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stori_ios_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0830074D2B9FCF1000C28916 /* Definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		083007562B9FDA6B00C28916 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		083007582B9FDB2300C28916 /* MoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
+		0830075A2B9FDB8600C28916 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0830075C2B9FDE1900C28916 /* MoviesRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRemoteService.swift; sourceTree = "<group>"; };
+		0830075E2B9FE26300C28916 /* MoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractor.swift; sourceTree = "<group>"; };
+		083007602B9FEBFF00C28916 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
+		083007652BA0FAC200C28916 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		083007662BA0FAC200C28916 /* MoviesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesViewController.xib; sourceTree = "<group>"; };
+		0830076F2BA1116200C28916 /* MoviesEndpointResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesEndpointResponse.swift; sourceTree = "<group>"; };
+		083007712BA1249B00C28916 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		083007722BA1249B00C28916 /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
+		083007752BA15C7800C28916 /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Poppins; sourceTree = "<group>"; };
+		083007772BA165EA00C28916 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		083007782BA165EA00C28916 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080F9A7F2B9BD0F900786E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080F9A952B9BD0FC00786E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080F9A9F2B9BD0FC00786E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080F9A792B9BD0F900786E3F = {
+			isa = PBXGroup;
+			children = (
+				080F9A842B9BD0F900786E3F /* stori-ios-challenge */,
+				080F9A9B2B9BD0FC00786E3F /* stori-ios-challengeTests */,
+				080F9AA52B9BD0FC00786E3F /* stori-ios-challengeUITests */,
+				080F9A832B9BD0F900786E3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080F9A832B9BD0F900786E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080F9A822B9BD0F900786E3F /* stori-ios-challenge.app */,
+				080F9A982B9BD0FC00786E3F /* stori-ios-challengeTests.xctest */,
+				080F9AA22B9BD0FC00786E3F /* stori-ios-challengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080F9A842B9BD0F900786E3F /* stori-ios-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				083007522B9FD9D000C28916 /* Coordinators */,
+				0830074F2B9FD9B100C28916 /* View */,
+				083007502B9FD9BE00C28916 /* Presenter */,
+				083007512B9FD9C700C28916 /* Interactors */,
+				083007532B9FD9DC00C28916 /* Services */,
+				083007542B9FD9E300C28916 /* Models */,
+				083007552B9FDA4300C28916 /* Additionals */,
+				080F9A852B9BD0F900786E3F /* AppDelegate.swift */,
+				080F9A872B9BD0F900786E3F /* SceneDelegate.swift */,
+				080F9A8E2B9BD0FC00786E3F /* Assets.xcassets */,
+				080F9A932B9BD0FC00786E3F /* Info.plist */,
+			);
+			path = "stori-ios-challenge";
+			sourceTree = "<group>";
+		};
+		080F9A9B2B9BD0FC00786E3F /* stori-ios-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				080F9A9C2B9BD0FC00786E3F /* stori_ios_challengeTests.swift */,
+			);
+			path = "stori-ios-challengeTests";
+			sourceTree = "<group>";
+		};
+		080F9AA52B9BD0FC00786E3F /* stori-ios-challengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080F9AA62B9BD0FC00786E3F /* stori_ios_challengeUITests.swift */,
+				080F9AA82B9BD0FC00786E3F /* stori_ios_challengeUITestsLaunchTests.swift */,
+			);
+			path = "stori-ios-challengeUITests";
+			sourceTree = "<group>";
+		};
+		0830074F2B9FD9B100C28916 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				083007652BA0FAC200C28916 /* MoviesViewController.swift */,
+				083007662BA0FAC200C28916 /* MoviesViewController.xib */,
+				083007712BA1249B00C28916 /* MoviesTableViewCell.swift */,
+				083007722BA1249B00C28916 /* MoviesTableViewCell.xib */,
+				083007772BA165EA00C28916 /* MovieDetailViewController.swift */,
+				083007782BA165EA00C28916 /* MovieDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		083007502B9FD9BE00C28916 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				083007582B9FDB2300C28916 /* MoviesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		083007512B9FD9C700C28916 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				0830075E2B9FE26300C28916 /* MoviesInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		083007522B9FD9D000C28916 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				083007602B9FEBFF00C28916 /* MoviesCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		083007532B9FD9DC00C28916 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0830075C2B9FDE1900C28916 /* MoviesRemoteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		083007542B9FD9E300C28916 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0830075A2B9FDB8600C28916 /* Movie.swift */,
+				0830076F2BA1116200C28916 /* MoviesEndpointResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		083007552B9FDA4300C28916 /* Additionals */ = {
+			isa = PBXGroup;
+			children = (
+				083007752BA15C7800C28916 /* Poppins */,
+				0830074D2B9FCF1000C28916 /* Definitions.swift */,
+				083007562B9FDA6B00C28916 /* Extensions.swift */,
+			);
+			path = Additionals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080F9A812B9BD0F900786E3F /* stori-ios-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080F9AAC2B9BD0FC00786E3F /* Build configuration list for PBXNativeTarget "stori-ios-challenge" */;
+			buildPhases = (
+				080F9A7E2B9BD0F900786E3F /* Sources */,
+				080F9A7F2B9BD0F900786E3F /* Frameworks */,
+				080F9A802B9BD0F900786E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stori-ios-challenge";
+			productName = "stori-ios-challenge";
+			productReference = 080F9A822B9BD0F900786E3F /* stori-ios-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080F9A972B9BD0FC00786E3F /* stori-ios-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080F9AAF2B9BD0FC00786E3F /* Build configuration list for PBXNativeTarget "stori-ios-challengeTests" */;
+			buildPhases = (
+				080F9A942B9BD0FC00786E3F /* Sources */,
+				080F9A952B9BD0FC00786E3F /* Frameworks */,
+				080F9A962B9BD0FC00786E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080F9A9A2B9BD0FC00786E3F /* PBXTargetDependency */,
+			);
+			name = "stori-ios-challengeTests";
+			productName = "stori-ios-challengeTests";
+			productReference = 080F9A982B9BD0FC00786E3F /* stori-ios-challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		080F9AA12B9BD0FC00786E3F /* stori-ios-challengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080F9AB22B9BD0FC00786E3F /* Build configuration list for PBXNativeTarget "stori-ios-challengeUITests" */;
+			buildPhases = (
+				080F9A9E2B9BD0FC00786E3F /* Sources */,
+				080F9A9F2B9BD0FC00786E3F /* Frameworks */,
+				080F9AA02B9BD0FC00786E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080F9AA42B9BD0FC00786E3F /* PBXTargetDependency */,
+			);
+			name = "stori-ios-challengeUITests";
+			productName = "stori-ios-challengeUITests";
+			productReference = 080F9AA22B9BD0FC00786E3F /* stori-ios-challengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080F9A7A2B9BD0F900786E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					080F9A812B9BD0F900786E3F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					080F9A972B9BD0FC00786E3F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 080F9A812B9BD0F900786E3F;
+					};
+					080F9AA12B9BD0FC00786E3F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 080F9A812B9BD0F900786E3F;
+					};
+				};
+			};
+			buildConfigurationList = 080F9A7D2B9BD0F900786E3F /* Build configuration list for PBXProject "stori-ios-challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080F9A792B9BD0F900786E3F;
+			productRefGroup = 080F9A832B9BD0F900786E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080F9A812B9BD0F900786E3F /* stori-ios-challenge */,
+				080F9A972B9BD0FC00786E3F /* stori-ios-challengeTests */,
+				080F9AA12B9BD0FC00786E3F /* stori-ios-challengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080F9A802B9BD0F900786E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0830077A2BA165EA00C28916 /* MovieDetailViewController.xib in Resources */,
+				083007762BA15C7800C28916 /* Poppins in Resources */,
+				0830076A2BA1004700C28916 /* MoviesViewController.xib in Resources */,
+				083007742BA1249B00C28916 /* MoviesTableViewCell.xib in Resources */,
+				080F9A8F2B9BD0FC00786E3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080F9A962B9BD0FC00786E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0830076B2BA1013900C28916 /* MoviesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080F9AA02B9BD0FC00786E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0830076C2BA1013900C28916 /* MoviesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080F9A7E2B9BD0F900786E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083007672BA0FAC200C28916 /* MoviesViewController.swift in Sources */,
+				0830075B2B9FDB8600C28916 /* Movie.swift in Sources */,
+				0830075F2B9FE26300C28916 /* MoviesInteractor.swift in Sources */,
+				083007572B9FDA6B00C28916 /* Extensions.swift in Sources */,
+				083007792BA165EA00C28916 /* MovieDetailViewController.swift in Sources */,
+				083007612B9FEBFF00C28916 /* MoviesCoordinator.swift in Sources */,
+				0830074E2B9FCF1000C28916 /* Definitions.swift in Sources */,
+				083007732BA1249B00C28916 /* MoviesTableViewCell.swift in Sources */,
+				0830075D2B9FDE1900C28916 /* MoviesRemoteService.swift in Sources */,
+				083007702BA1116200C28916 /* MoviesEndpointResponse.swift in Sources */,
+				080F9A862B9BD0F900786E3F /* AppDelegate.swift in Sources */,
+				080F9A882B9BD0F900786E3F /* SceneDelegate.swift in Sources */,
+				083007592B9FDB2300C28916 /* MoviesPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080F9A942B9BD0FC00786E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080F9A9D2B9BD0FC00786E3F /* stori_ios_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080F9A9E2B9BD0FC00786E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080F9AA92B9BD0FC00786E3F /* stori_ios_challengeUITestsLaunchTests.swift in Sources */,
+				080F9AA72B9BD0FC00786E3F /* stori_ios_challengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080F9A9A2B9BD0FC00786E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080F9A812B9BD0F900786E3F /* stori-ios-challenge */;
+			targetProxy = 080F9A992B9BD0FC00786E3F /* PBXContainerItemProxy */;
+		};
+		080F9AA42B9BD0FC00786E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080F9A812B9BD0F900786E3F /* stori-ios-challenge */;
+			targetProxy = 080F9AA32B9BD0FC00786E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		080F9AAA2B9BD0FC00786E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		080F9AAB2B9BD0FC00786E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080F9AAD2B9BD0FC00786E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = StoriAccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN9UGD54YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "stori-ios-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.stori-ios-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080F9AAE2B9BD0FC00786E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = StoriAccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN9UGD54YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "stori-ios-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.stori-ios-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		080F9AB02B9BD0FC00786E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN9UGD54YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.stori-ios-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stori-ios-challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stori-ios-challenge";
+			};
+			name = Debug;
+		};
+		080F9AB12B9BD0FC00786E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN9UGD54YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.stori-ios-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stori-ios-challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stori-ios-challenge";
+			};
+			name = Release;
+		};
+		080F9AB32B9BD0FC00786E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN9UGD54YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.stori-ios-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "stori-ios-challenge";
+			};
+			name = Debug;
+		};
+		080F9AB42B9BD0FC00786E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN9UGD54YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.stori-ios-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "stori-ios-challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080F9A7D2B9BD0F900786E3F /* Build configuration list for PBXProject "stori-ios-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080F9AAA2B9BD0FC00786E3F /* Debug */,
+				080F9AAB2B9BD0FC00786E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080F9AAC2B9BD0FC00786E3F /* Build configuration list for PBXNativeTarget "stori-ios-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080F9AAD2B9BD0FC00786E3F /* Debug */,
+				080F9AAE2B9BD0FC00786E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080F9AAF2B9BD0FC00786E3F /* Build configuration list for PBXNativeTarget "stori-ios-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080F9AB02B9BD0FC00786E3F /* Debug */,
+				080F9AB12B9BD0FC00786E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080F9AB22B9BD0FC00786E3F /* Build configuration list for PBXNativeTarget "stori-ios-challengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080F9AB32B9BD0FC00786E3F /* Debug */,
+				080F9AB42B9BD0FC00786E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080F9A7A2B9BD0F900786E3F /* Project object */;
+}
